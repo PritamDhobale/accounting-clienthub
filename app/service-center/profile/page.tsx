@@ -22,11 +22,11 @@ export default function ServiceCenterProfile() {
   // Mock service center profile data
   const [profile, setProfile] = useState({
     name: "East Coast Team",
-    email: "eastcoast@gentyx.com",
+    email: "eastcoast@clienthub.com",
     phone: "(212) 555-1234",
     location: "New York, NY",
     manager: "Sarah Johnson",
-    managerEmail: "sarah@gentyx.com",
+    managerEmail: "sarah@clienthub.com",
     managerPhone: "(212) 555-5678",
     regions: "New York, New Jersey, Connecticut, Massachusetts",
     clientCapacity: "15",
@@ -185,7 +185,7 @@ export default function ServiceCenterProfile() {
                 <Card>
                   <CardHeader>
                     <CardTitle>Service Center Information</CardTitle>
-                    <CardDescription>Your service center details on record with Gentyx</CardDescription>
+                    <CardDescription>Your service center details on record with ClientHub</CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

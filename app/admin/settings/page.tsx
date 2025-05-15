@@ -76,7 +76,7 @@ export default function AdminSettings() {
       <div className="space-y-8">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Settings</h1>
-          <p className="text-muted-foreground mt-2">Configure system-wide settings for Gentyx ClientHub</p>
+          <p className="text-muted-foreground mt-2">Configure system-wide settings for ClientHub</p>
         </div>
 
         <Tabs defaultValue="notifications" className="space-y-4">

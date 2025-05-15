@@ -93,7 +93,7 @@ export default function ClientProfile() {
             <Card>
               <CardHeader>
                 <CardTitle>Business Details</CardTitle>
-                <CardDescription>Your business information on record with Gentyx</CardDescription>
+                <CardDescription>Your business information on record with ClientHub</CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -223,7 +223,7 @@ export default function ClientProfile() {
             <Card>
               <CardHeader>
                 <CardTitle>Primary Contact</CardTitle>
-                <CardDescription>Your primary contact information on record with Gentyx</CardDescription>
+                <CardDescription>Your primary contact information on record with ClientHub</CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

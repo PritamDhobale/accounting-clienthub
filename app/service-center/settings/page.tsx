@@ -23,7 +23,7 @@ export default function ServiceCenterSettings() {
   // Mock service center profile data
   const [profile, setProfile] = useState({
     name: "East Coast Team",
-    email: "eastcoast@gentyx.com",
+    email: "eastcoast@clienthub.com",
     phone: "(212) 555-1234",
     region: "Northeast",
     avatar: "",

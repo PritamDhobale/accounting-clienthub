@@ -49,7 +49,7 @@ export function AppSidebar({ role }: AppSidebarProps) {
     <aside className="w-48 min-h-screen flex flex-col border-r border-border bg-[#f9f9f9]">
       <div className="py-4 px-4 border-b border-border">
         <img
-          src="/images/accounthub.png"
+          src="/images/clienthub.png"
           alt="MySAGE Logo"
           className="h-9 w-full object-contain"
         />

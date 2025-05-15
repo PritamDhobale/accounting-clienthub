@@ -22,7 +22,7 @@ const initialTasks = [
       "Log in to your QuickBooks Online account",
       "Go to Settings > Manage Users",
       "Click 'Add User' and select 'Accountant'",
-      "Enter the email address provided by Gentyx",
+      "Enter the email address provided by ClientHub",
       "Set the appropriate permissions",
       "Click 'Save' to send the invitation",
     ],
@@ -116,7 +116,7 @@ export default function ClientTasks() {
           <Info className="h-4 w-4" />
           <AlertTitle>Important</AlertTitle>
           <AlertDescription>
-            Please complete all tasks to proceed with your onboarding. If you have any questions, contact your Gentyx
+            Please complete all tasks to proceed with your onboarding. If you have any questions, contact your ClientHub
             representative.
           </AlertDescription>
         </Alert>

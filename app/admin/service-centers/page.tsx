@@ -29,7 +29,7 @@ const initialServiceCenters = [
     location: "New York, NY",
     clientsAssigned: 8,
     manager: "Sarah Johnson",
-    email: "eastcoast@gentyx.com",
+    email: "eastcoast@clienthub.com",
     phone: "(212) 555-1234",
   },
   {
@@ -38,7 +38,7 @@ const initialServiceCenters = [
     location: "San Francisco, CA",
     clientsAssigned: 10,
     manager: "Michael Chen",
-    email: "westcoast@gentyx.com",
+    email: "westcoast@clienthub.com",
     phone: "(415) 555-6789",
   },
   {
@@ -47,7 +47,7 @@ const initialServiceCenters = [
     location: "Chicago, IL",
     clientsAssigned: 6,
     manager: "David Wilson",
-    email: "central@gentyx.com",
+    email: "central@clienthub.com",
     phone: "(312) 555-4321",
   },
   {
@@ -56,7 +56,7 @@ const initialServiceCenters = [
     location: "Austin, TX",
     clientsAssigned: 5,
     manager: "Emily Rodriguez",
-    email: "southern@gentyx.com",
+    email: "southern@clienthub.com",
     phone: "(512) 555-8765",
   },
   {
@@ -65,7 +65,7 @@ const initialServiceCenters = [
     location: "Remote",
     clientsAssigned: 3,
     manager: "James Lee",
-    email: "international@gentyx.com",
+    email: "international@clienthub.com",
     phone: "(888) 555-9876",
   },
 ]
@@ -260,7 +260,7 @@ export default function AdminServiceCenters() {
                         type="email"
                         value={newServiceCenter.email}
                         onChange={handleInputChange}
-                        placeholder="e.g., northeast@gentyx.com"
+                        placeholder="e.g., northeast@clienthub.com"
                       />
                     </div>
                     <div className="space-y-2">

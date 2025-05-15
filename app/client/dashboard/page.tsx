@@ -22,7 +22,7 @@ export default function ClientDashboard() {
     <DashboardLayout role="client">
       <div className="space-y-8">
         <div>
-          <h1 className="text-3xl font-bold tracking-tight">Welcome to Gentyx ClientHub</h1>
+          <h1 className="text-3xl font-bold tracking-tight">Welcome to ClientHub</h1>
           <p className="text-muted-foreground mt-2">Track your onboarding progress and complete required tasks</p>
         </div>
 
@@ -73,7 +73,7 @@ export default function ClientDashboard() {
           <Card>
             <CardHeader className="pb-2">
               <CardTitle>Engagement Agreement</CardTitle>
-              <CardDescription>Your contract with Gentyx</CardDescription>
+              <CardDescription>Your contract with ClientHub</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">

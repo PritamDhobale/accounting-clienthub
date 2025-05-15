@@ -43,7 +43,7 @@ export default function LoginPage() {
 
       {/* Green login box */}
       <div className="login-box">
-        <img src="/images/accountshub.png" alt="AccountsHub" className="login-logo-img" />
+        <img src="/images/clienthublogin.png" alt="ClientHub" className="login-logo-img" />
         <form onSubmit={handleLogin}>
           <label htmlFor="email">Email Address</label>
           <input
@@ -72,7 +72,7 @@ export default function LoginPage() {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="client">Client</SelectItem>
-              <SelectItem value="admin">Gentyx Admin</SelectItem>
+              <SelectItem value="admin">ClientHub Admin</SelectItem>
               <SelectItem value="service-center">Service Center</SelectItem>
             </SelectContent>
           </Select>
